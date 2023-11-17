@@ -1,6 +1,6 @@
 import { AppDataSource } from "../../data-source";
 import { Users } from "../../entities/user.entity";
-import { TUserRequest, TUserResponse } from "../../interfaces/users.interface";
+import { TUserRequest, TUserResponse } from "../../interfaces/user.interfaces";
 import { userSchemaResponse } from "../../schemas/users.schema";
 
 export const createUserService = async (
